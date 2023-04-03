@@ -116,12 +116,12 @@ Container buildMyNavBar(BuildContext context) {
 			},
 			icon: pageIndex == 1
 				? const Icon(
-					Icons.work_rounded,
+					Icons.play_circle_filled,
 					color: Colors.white,
 					size: 35,
 				)
 				: const Icon(
-					Icons.work_outline_outlined,
+					Icons.play_circle_outline_sharp,
 					color: Colors.white,
 					size: 35,
 				),
@@ -135,12 +135,12 @@ Container buildMyNavBar(BuildContext context) {
 			},
 			icon: pageIndex == 2
 				? const Icon(
-					Icons.widgets_rounded,
+					Icons.settings,
 					color: Colors.white,
 					size: 35,
 				)
 				: const Icon(
-					Icons.widgets_outlined,
+					Icons.settings_outlined,
 					color: Colors.white,
 					size: 35,
 				),
